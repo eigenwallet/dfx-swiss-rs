@@ -1,0 +1,22 @@
+[package]
+name = "dfx-swiss-sdk"
+version = "1.0.0"
+authors = ["OpenAPI Generator team and contributors"]
+description = "DFX Swiss SDK - Higher level wrapper around dfx-swiss-sdk-raw"
+license = "Unlicense"
+edition = "2018"
+
+[dependencies]
+dfx-swiss-sdk-raw = { path = "../dfx-swiss-sdk-raw" }
+serde = { workspace = true }
+serde_derive = { workspace = true }
+serde_json = { workspace = true }
+tokio = { version = "1.0", features = ["sync"] }
+thiserror = "1.0"
+
+[dev-dependencies]
+monero-sys = { git = "https://github.com/UnstoppableSwap/core.git", branch = "feat/monero-sign-message" }
+tokio = { version = "1.0", features = ["full"] }
+tempfile = "3.0"
+tracing-subscriber = "0.3"
+monero = { version = "0.12", features = ["serde_support"] }

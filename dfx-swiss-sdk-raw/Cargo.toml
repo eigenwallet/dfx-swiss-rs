@@ -1,0 +1,15 @@
+[package]
+name = "dfx-swiss-sdk-raw"
+version = "1.0.0"
+authors = ["OpenAPI Generator team and contributors"]
+description = "DFX API PRD (updated on 7/3/2025, 12:42:13 PM)"
+license = "Unlicense"
+edition = "2018"
+
+[dependencies]
+serde = { workspace = true }
+serde_derive = { workspace = true }
+serde_json = { workspace = true }
+url = { workspace = true }
+uuid = { workspace = true }
+reqwest = { workspace = true }

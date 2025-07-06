@@ -1,3 +1,4 @@
 /target/
+/target-check/
 **/*.rs.bk
 Cargo.lock
