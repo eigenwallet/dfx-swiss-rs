@@ -6,7 +6,6 @@ A Rust SDK for the DFX Swiss API with Monero wallet integration.
 
 ### dfx-swiss-sdk-raw
 - Generated OpenAPI client for the DFX Swiss API
-- Contains auto-generated models and API endpoints
 - Direct 1:1 mapping to the DFX API [specification](https://api.dfx.swiss/swagger-json)
 
 ### dfx-swiss-sdk
