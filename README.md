@@ -11,7 +11,7 @@ A Rust SDK for the DFX Swiss API with Monero wallet integration.
 
 ### dfx-swiss-sdk
 - Higher-level wrapper around dfx-swiss-sdk-raw
-- Integrates with Monero wallets for message signing
+- Integrates with [`monero-sys`](https://github.com/eigenwallet/wallet/tree/master/monero-sys) for message signing
 - Handles JWT token management
 
 ## Authentication Flow
